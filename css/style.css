@@ -6,12 +6,24 @@
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(244,248,250);
+}
+
+/* utilities */
+.list ::before {
+  content: icon;
 }
 
 /* header */
+#container-header{
+  background-color: white;
+  margin: 0 auto;
+}
+
 .header {
- margin-top: 20px;
- margin-left: 20px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 header .header img {
@@ -26,10 +38,6 @@ header .header span {
 /* /header */ 
 
 /* main */
-.container-main {
-  background-color: rgb(244,248,250);
-  margin: 0 auto;
-}
 .container {
   max-width: 900px;
   margin: 80px auto;
@@ -56,3 +64,91 @@ header .header span {
   text-align: center;
   width: 90px;
 }
+/*list*/
+.task {
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.list{
+  padding-left: 0px;
+  padding-top: 10px;
+  list-style: none;
+
+}
+
+.editorial {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(55,158,230);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.check {
+  color: rgb(158,213,193);
+  border: 1px solid rgb(158,213,193);
+  border-radius: 50%;
+  padding: 2px 4px;
+}
+
+.q1 {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(134,88,224);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.cross {
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+.recruiting {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(158,213,193);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.mobile {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(222,139,42);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.website {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(199,78,145);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.sales {
+  color: white;
+  font-size: 0.6rem;
+  background-color: rgb(160,193,32);
+  border-radius: 36%;
+  padding: 6px 8px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.title{
+  padding-top: 45px;
+}
+
+.row.footer{
+  padding-bottom: 80px;
+}
+/* /list */
+/* /main */

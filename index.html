@@ -9,7 +9,7 @@
 
 <body>
 
-  <header>
+  <header id="container-header">
 
     <div class="header">
       <img src="img/Logo.png" alt="logo">
@@ -18,12 +18,36 @@
 
   </header>
 
-  <main class="container-main">
+  <main class="container">
 
-    <div class="container">
-     <input class="button" type="button" value="Add Task">
-     <input class="section" type="text" placeholder="Add Section">
-     <h2></h2>
+    <div>
+      <input class="button" type="button" value="Add Task">
+      <input class="section" type="text" placeholder="Add Section">
+    </div>
+
+    <div class="task">
+      
+      <h2>&triangledown; New Task</h2>
+      <ul class="list" >
+        <li><span class="check">&check;</span> Quarterly Newsletters <span class="editorial">Editorial</span></li>
+      </ul>
+
+      <h2 class="title">&triangledown; Today</h2>
+      <ul class="list">
+        <li><span class="check">&check;</span> Recruiting block post <span class="editorial">Editorial</span></li>
+        <li class="row"><span class="check">&check;</span> Mobile launch app <span class="q1" >Q1 Goals</span></li>
+        <li class="row"><span class="cross">&cross;</span> Interview Jhon H. <span class="recruiting">Recruiting</span></li>
+        <li class="row"><span class="check">&check;</span> Summit update to mobile storefronts <span class="mobile">Mobile</span></li>
+      </ul>
+
+      <h2 class="title">&triangledown; Upcoming</h2>
+      <ul class="list">
+        <li><span class="cross">&cross;</span> Scheduled meeting with Alex</li>
+        <li class="row"><span class="check">&check;</span> Homepage refresh <span class="website">Website</span></li>
+        <li class="row"><span class="check">&check;</span> Onboard new Sales team members <span class="sales">Sales</span></li>
+        <li class="row footer"><span class="check">&check;</span> Review editorial calendar <span class="editorial" >Editorial</span></li>
+      </ul>
+
     </div>
 
   </main>
